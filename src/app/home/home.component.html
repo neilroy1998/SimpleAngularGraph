@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+	<h1>{{welcome_text}}</h1>
+	<div class="FirstPageContentInside">
+		<form>
+			<h2>Please Enter Your Name</h2>
+			<input type="search" name="Name" id="searchTextInput">
+			<input type="button" value="Enter" (click)="openDash()">
+		</form>
+	</div>
+	<p id="errText" class="ErrorText">Invalid Entry</p>
+	<div class="About">
+		<h3>Made By Rajit.</h3>
+	</div>
+</div>
+	  
+<router-outlet></router-outlet>
+	  

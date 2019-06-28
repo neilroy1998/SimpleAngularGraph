@@ -1,0 +1,32 @@
+:root {
+  --hover-bg-color: #ddf0ff;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+.grid-item {
+	border-style: hidden;
+  border-radius: 10px;
+}
+.grid-item:hover {
+  background-color: #ddf0ff;
+}
+img {
+	width: 75%;
+	height: 75%;
+	border-radius: 10%;
+	display: block;
+	margin: 0 auto;
+  padding: 10px
+}
+h2 {
+	text-align: center;
+  white-space: nowrap;
+
+}
+h3 {
+	text-align: center;
+  white-space: nowrap;
+}

@@ -1,0 +1,17 @@
+<div>
+	<h1>Welcome {{msg | titlecase}}</h1>
+	<br>
+	<br>
+	<h2>Choose a kind of graph...</h2>
+	<br>
+	<div class="grid-container">
+		<div class="grid-item" *ngFor="let graphType of graphTypesVals" (click)="onSelectType(graphType)">
+			<img src={{graphType.source}}>
+			<h3>
+        {{graphType.name}}
+      </h3>
+		</div>
+	</div>
+</div>
+
+<router-outlet></router-outlet>
